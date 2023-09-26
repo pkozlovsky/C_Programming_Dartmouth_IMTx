@@ -18,5 +18,16 @@ quickly and so that human beings can understand them clearly. A programmer is
  as well as mathematical concepts, to communicate the way an algorithm works 
  and to convince a reader that the results will be correct." ― Donald Ervin Knuth, Selected Papers on Computer Science
 */
+#include <stdio.h>
 
-
+int main(){
+    
+    char text[68][41];
+    
+    for(int i=0; i<68; i++){
+        scanf("%s",text[i]);
+    }
+    for(int i=67; i>=0; i--){
+       printf("%s ",text[i]); 
+    } 
+}
